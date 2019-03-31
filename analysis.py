@@ -2,11 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import bubble
-import insertion
+
 import bucket
 import merge
 import quick
 import selection
+
 def genCsv():
     
     bubble.bubblecsv()
