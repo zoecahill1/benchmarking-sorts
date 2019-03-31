@@ -25,16 +25,16 @@ def genPlot():
     
 
     #https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
-    x=df.iloc[0]
-    bu=df.iloc[1]
+    x=df.iloc[:,0]
+    bu=df.iloc[:,1]
     plt.plot(x, bu, "ro-", label = "Bubble")
-    select=df.iloc[2]
+    select=df.iloc[:,2]
     plt.plot(x,select,"bo-", label = "Select")
-    bucket=df.iloc[3]
+    bucket=df.iloc[:,3]
     plt.plot(x,bucket,"yo-", label = "Bucket")
-    merge=df.iloc[4]
+    merge=df.iloc[:,4]
     plt.plot(x,merge,"go-", label = "Merge")
-    quick=df.iloc[5]
+    quick=df.iloc[:,5]
     plt.plot(x, quick,"mo-", label = "Quick")
 
     plt.title('Benchmarking Sorting Algorithims') 

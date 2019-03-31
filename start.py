@@ -1,10 +1,9 @@
 import analysis
 
 def main():
-    analysis.genCsv()
+    #analysis.genCsv()
 
-    #genPlot()
-
+    analysis.genPlot()
 
     #x = ""
     #x=np.arange(0, 10000, 2000)
