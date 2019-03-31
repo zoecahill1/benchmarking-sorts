@@ -42,4 +42,7 @@ def genPlot():
     plt.xlabel('Input Size (n)') 
     plt.ylabel('Running time (milliseconds)') 
 
+    plt.ylim(0, 50)
+
+    #pl.savefig("graph.png")
     plt.show()
