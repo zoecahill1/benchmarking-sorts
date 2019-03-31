@@ -42,7 +42,7 @@ def run_test_of_size_merge(n):
         # The time() function will track the start time of the sort
         start_time = time.time()
         # Call to run bubbblesort list of random numbers
-        result = mergeSort(list)
+        mergeSort(list)
         # Tracks when the sort finishes
         end_time = time.time()
         # To get the run time we subtract the 2 numbers
