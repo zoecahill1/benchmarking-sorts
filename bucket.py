@@ -21,7 +21,7 @@ def bucketcsv():
     buckettest.append(run_test_of_size_bucket(10000))
 
 
-    with open ("results.csv", "a", newline = "") as csvFile:
+    with open ("res/results.csv", "a", newline = "") as csvFile:
         #writer=csv.DictWriter(
             #csvFile, fieldnames = ["Algorithim", "100", "250", "500", "750", "1000", "1250", "2500", "3750", "5000", "6250", "7500", "8750"])
         #writer.writeheader()

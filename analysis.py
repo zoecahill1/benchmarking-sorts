@@ -18,9 +18,9 @@ def genCsv():
 
 
 def genPlot():
-    #pd.read_csv('results.csv', header=None).T.to_csv('output.csv', header=False, index=False)
+    #pd.read_csv('res/results.csv', header=None).T.to_csv('res/output.csv', header=False, index=False)
     
-    df = pd.read_csv("output.csv")
+    df = pd.read_csv("res/output.csv")
     print(df.head())
     
 
@@ -44,5 +44,11 @@ def genPlot():
 
     plt.ylim(0, 50)
 
-    #pl.savefig("graph.png")
+    #plt.savefig("res/graph.png")
     plt.show()
+
+def genTable():
+    pd.set_option('display.width', 1000)
+    df = pd.read_csv("res/results.csv")
+    df.rename(index={0:"Size",1:"Bubble Sort",2:"Selection Sort",3:"Bucket Sort", 4:"Merge Sort", 5:"Quick Sort"}, inplace=True)
+    print(df)
