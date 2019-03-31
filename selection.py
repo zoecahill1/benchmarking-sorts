@@ -34,7 +34,7 @@ def selectioncsv():
     csvFile.close()
 
 # Source code downloaded from:
-# #https://www.pythoncentral.io/selection-sort-implementation-guide/
+# https://www.pythoncentral.io/selection-sort-implementation-guide/
 # Defines a finction called selection sort used for sorting lists
 def selectionSort(alist):
 
