@@ -8,6 +8,8 @@ import merge
 import quick
 import selection
 
+# This function will generate a CSV file to store the results of
+# the tests being run
 def genCsv():
     
     bubble.bubblecsv()
