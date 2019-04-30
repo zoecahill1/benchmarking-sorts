@@ -86,6 +86,7 @@ def partition(alist,first,last):
            alist[leftmark] = alist[rightmark]
            alist[rightmark] = temp
 
+    # becomes the new partition value
    temp = alist[first]
    alist[first] = alist[rightmark]
    alist[rightmark] = temp
@@ -102,7 +103,7 @@ def run_test_of_size_quick(n):
         # The time() function will track the start time of the sort
         start_time = time.time()
         # Call to run bubbblesort list of random numbers
-        result = quickSort(list)
+        quickSort(list)
         # Tracks when the sort finishes
         end_time = time.time()
         # To get the run time we subtract the 2 numbers
