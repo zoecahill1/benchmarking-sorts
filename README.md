@@ -50,5 +50,5 @@ This repository contains my solutions to the Project for the module Computationa
 2. [Selection Sort Source Code](https://www.pythoncentral.io/selection-sort-implementation-guide/)
 3. [Merge Sort Source Code](http://interactivepython.org/courselib/static/pythonds/SortSearch/TheMergeSort.html)
 4. [Quick Sort Source Code](http://interactivepython.org/courselib/static/pythonds/SortSearch/TheQuickSort.html)
-5. [Bucket Sort](https://gist.github.com/joaofeitoza13/95bc455570ed5471830379c90a1349e7)
+5. [Bucket Sort Source Code](https://gist.github.com/joaofeitoza13/95bc455570ed5471830379c90a1349e7)
 6. [Iloc tutorial used in analysis.py](https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/)
