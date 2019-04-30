@@ -1,4 +1,4 @@
-![Python Banner](/images/python-banner.jpg)
+![Python Banner](/res/python-banner.jpg)
 # Benchmarking Sorting Algorithims
 
 This repository contains my solutions to the Project for the module Computational Thinking with Algorithims at GMIT. 
