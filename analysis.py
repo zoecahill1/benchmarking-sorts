@@ -60,6 +60,6 @@ def genTable():
     # Read data from csv file
     df = pd.read_csv("res/results.csv")
     # Naming rows by index
-    df.rename(index={0:"Size",1:"Bubble Sort",2:"Selection Sort",3:"Bucket Sort", 4:"Merge Sort", 5:"Quick Sort"}, inplace=True)
+    df.rename(index={0:"Bubble Sort",1:"Selection Sort",2:"Bucket Sort",3:"Merge Sort", 4:"Quick Sort"}, inplace=True)
     # Outputs dataframe to console
     print(df)
